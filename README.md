@@ -1,4 +1,4 @@
-# ElecML
+# EMGen
 
 The source code provides the feature calculations, model training, and directed design.
 ![image](https://github.com/CodingWZL/ElecML/assets/104205506/59a4c1ab-904e-4eec-9feb-7b30f4134edd)

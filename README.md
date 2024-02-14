@@ -3,6 +3,10 @@
 The source code provides the feature calculations, model training, and directed design.
 ![image](https://github.com/CodingWZL/ElecML/assets/104205506/59a4c1ab-904e-4eec-9feb-7b30f4134edd)
 
+# environmental.py
+which provides the dependencies for installing and running EMGen.
+One can use the "conda env create -f environmental.py -n you_name" to create the running environment.
+
 # calculate.py
 which is used for calculating the descriptors for crystal structures in current directory. Users should provide at least one .cif file in current directory, and set the filename as parameters in this program, and then run this program by "python calculate.py"
 

@@ -3,5 +3,17 @@
 The source code provides the feature calculations, model training, and directed design.
 ![image](https://github.com/CodingWZL/ElecML/assets/104205506/59a4c1ab-904e-4eec-9feb-7b30f4134edd)
 
+# calculate.py
+which is used for calculating the descriptors for crystal structures in current directory. Users should provide at least one .cif file in current directory, and set the filename as parameters in this program, and then run this program by "python calculate.py"
+
+# ComponentFeature.py
+which is used for calculating the component features for crystal structures in current directory, and is called by calculate.py.
+
+# StructureFeature.py
+which is used for calculating the structural features for crystal structures in current directory, and is called by calculate.py.
+
+# opt.py
+which is used to directed design semiconductors by applying active learning methods, where the well-trained models are served as the surrogate models.
+
 # Reference:
 Zhilong Wang, Sixian Liu, Jing Gao, Kehao Tao, An Chen, Hongxiao Duan, Yanqiang Han, Gang Liu, Jinjin Li. Submitted.

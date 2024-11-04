@@ -20,4 +20,4 @@ which is used for calculating the structural features for crystal structures in 
 which is used to directed design semiconductors by applying active learning methods, where the well-trained models are served as the surrogate models.
 
 # Reference:
-Zhilong Wang, Sixian Liu, Jing Gao, Kehao Tao, An Chen, Hongxiao Duan, Yanqiang Han, Fengqi You*, Gang Liu*, Jinjin Li*. Interpretable Surrogate Learning for Electronic Materials Generation. ACS Nano Accepted (2024) tps://doi.org/10.1021/acsnano.4c12166.
+Zhilong Wang, Sixian Liu, Jing Gao, Kehao Tao, An Chen, Hongxiao Duan, Yanqiang Han, Fengqi You*, Gang Liu*, Jinjin Li*. Interpretable Surrogate Learning for Electronic Materials Generation. ACS Nano Accepted (2024) https://doi.org/10.1021/acsnano.4c12166.

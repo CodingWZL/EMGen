@@ -43,10 +43,6 @@ def structure_symmetry(structure):
         a[5] = 1
     elif crystal_system_int == 7:
         a[6] = 1
-    #symmetry_information = []
-    #symmetry_information.append(space_group)
-    #symmetry_information.append()
-    #return list((float(space_group), float(crystal_system_int), float(is_centrosymmetric), float(n_symmetry_ops)))
     return a,is_centrosymmetric
 
 # Calculate the radial distribution function for a crystal structure
@@ -113,10 +109,5 @@ def average_atomic_volume(structure):
     return average_atom_volume, average_volume_atom
 
 
-
-# op_struct_fp = SiteStatsFingerprint.from_preset("OPSiteFingerprint")
-# structure_1 = Structure.from_file('Si_mp-109_primitive.cif')
-# structure_2 = Structure.from_file('Dy2HfS5_mp-1198001_computed.cif')
-# #structure = [structure_1.get_primitive_structure(), structure_2.get_primitive_structure()]
 
 
